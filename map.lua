@@ -1,5 +1,6 @@
 --[[
   Lua implmentation of javascript maps.
+  by: OkBuddy
 ]]
 
 --// Map class 
