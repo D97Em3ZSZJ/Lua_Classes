@@ -1,15 +1,14 @@
 --[[
   Lua implmentation of javascript maps.
-  by: OkBuddy
 ]]
 
 --// Map class 
 local map = {}
 
 --// Functions 
-function map.new()
+function map.new(data)
   local self = {}
-  self.data = {}
+  self.data = data or {}
   self.size = 0 
 
   --// Functions
@@ -69,4 +68,4 @@ function map.new()
   return self
 end 
 
-return map 
+return map
