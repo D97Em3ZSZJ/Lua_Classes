@@ -7,7 +7,7 @@
 local json = {}
 
 --// Functions 
-function json.encode(object : object, spacing : int, depth : ignore)
+function json.stringify(object : object, spacing : int, depth : ignore)
   depth = depth or 1
   spacing = spacing or 2
   local result = '{\n'
