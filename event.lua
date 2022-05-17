@@ -21,7 +21,7 @@ function event.new()
       self.listeners[listener.id] = nil
     end 
 
-    return listener.id 
+    return listener
   end 
 
   function self:close()
